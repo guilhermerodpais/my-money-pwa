@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Where's my money - Novo lançamento</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/app.css">
+  <link rel="stylesheet" href="./src/css/primitive.css">
+  <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+  <header class="main-header">
+    <a href="./index.html">
+      <svg id="circle" height="40" width="40" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <image x="0" y="0" height="40" width="40" xlink:href="./src/images/icons/svg/logo.svg" />
+      </svg>
+      <h4>Where's my money</h4>
+    </a>
+  </header>
+  <div class="small-container">
+    <h1>Vamos começar?</h1>
+
+    <form id="form-add" name="form-add">
+      <label for="type">Qual o tipo?</label>
+      <select id="type">
+        <option disabled selected>Favor selecione</option>
+        <option value="lucro">Lucro</option>
+        <option value="despesa">Despesa</option>
+      </select>
+      <label for="value">Quanto</label>
+      <input id="value" type="number" placeholder="20,00">
+      <label for="description">Com o que?</label>
+      <input id="description" type="text" placeholder="Ex: No Parque">
+      <label for="category">Qual a categoria?</label>
+      <select id="category">
+        <option disabled selected>Escolha um</option>
+        <option value="alimentacao">Alimentação</option>
+        <option value="diversao">Diversão</option>
+        <option value="estudos">Estudos</option>
+        <option value="moradia">Moradia</option>
+        <option value="saude">Saúde</option>
+        <option value="transporte">Transporte</option>
+        <option value="vestuario">Vestuário</option>
+        <option value="viagem">Viagem</option>
+      </select>
+      <input type="submit" value="pronto!" class="full-button">
+    </form>
+  </div>
+
+  <script src="./src/js/scriptAdd.js"></script>
+</body>
+
+</html>
