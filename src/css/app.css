@@ -162,12 +162,12 @@ div:nth-child(6n+1) .btn-type {
   font-size: 0.9rem;
   display: block;
   font-weight: lighter;
-  color: #b3b3b3;
+  color: #848484;
   padding-bottom: 0.5rem;
 }
 
 .head-info .card {
-  min-height: 143px;
+  min-height: 168px;
   margin-bottom: 36px;
   display: -webkit-box;
   display: -moz-box;

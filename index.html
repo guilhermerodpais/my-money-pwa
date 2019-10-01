@@ -14,13 +14,13 @@
   <link rel="manifest" href="./manifest.json">
   <script>
     if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-        .then((reg) => {
-          console.log('Service worker registered.', reg);
-        });
-  });
-}
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+            .then((reg) => {
+              console.log('Service worker registered.', reg);
+            });
+      });
+    }
   </script>
 </head>
 
@@ -39,7 +39,7 @@
       <div class="flex-small">
         <div class="card">
           <div class="payment vertical-center direction-col full-width">
-            <h1><span>Você tem atualmente</span>R$ 23,55</h1>
+            <h1><span>Você tem atualmente</span><b id="total-value">00,00</b><span>reais</span></h1>
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@
         </a></div>
     </div>
   </div>
-  <script src="./src/js/scripts.js"></script>
+  <script src="./src/js/scriptHome.js"></script>
 </body>
 
 </html>
