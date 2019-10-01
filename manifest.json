@@ -1,7 +1,7 @@
 {
   "name": "Where`s my money",
   "short_name": "WMmoney",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#eee",
