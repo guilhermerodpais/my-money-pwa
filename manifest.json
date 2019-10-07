@@ -1,6 +1,6 @@
 {
   "name": "Where`s my money",
-  "short_name": "WMmoney",
+  "short_name": "Where`s my money",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "portrait",
